@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1E33"/>
+      <stop offset="0.62" stop-color="#1D4D63"/>
+      <stop offset="0.62" stop-color="#0E3A4F"/>
+      <stop offset="1" stop-color="#06202E"/>
+    </linearGradient>
+  </defs>
+  <!-- background: dusk sky over a dark lake -->
+  <rect width="108" height="108" fill="url(#sky)"/>
+  <!-- low sun -->
+  <circle cx="68" cy="45" r="9" fill="#FFB86B"/>
+  <!-- far fell -->
+  <path d="M0,67 C14,58 26,44 44,42 C60,40 74,54 88,57 C96,59 102,62 108,64 L108,67 Z" fill="#2E6B70"/>
+  <!-- near fell -->
+  <path d="M0,67 C10,61 20,52 32,52 C44,52 52,62 64,64 C74,66 90,66 108,67 Z" fill="#3F9A8C"/>
+  <!-- lake ripples -->
+  <path d="M30,76 h22 M58,76 h16 M38,84 h30" stroke="#7DD3FC" stroke-width="2.4" stroke-linecap="round" opacity="0.55"/>
+  <!-- the shell: hull, then oars sweeping back -->
+  <path d="M28,69.5 C44,66.4 64,66.4 82,69.5 C64,72.6 44,72.6 28,69.5 Z" fill="#F4F7FA"/>
+  <circle cx="55" cy="66.8" r="2.6" fill="#F4F7FA"/>
+  <path d="M53,69.5 L41,77.5 M57,69.5 L69,77.5" stroke="#F4F7FA" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M39.2,78.7 l-4,2.7 M70.8,78.7 l4,2.7" stroke="#FFB86B" stroke-width="4.2" stroke-linecap="round"/>
+</svg>

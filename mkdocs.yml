@@ -1,0 +1,60 @@
+site_name: Fellwater
+site_description: Row through video on your own terms. An Android app for Tunturi (iConsole) and FTMS rowing machines.
+docs_dir: docs
+exclude_docs: requirements.txt
+# OWNER/REPO is filled in by .github/workflows/pages.yml from the repository it runs in.
+repo_url: https://github.com/OWNER/REPO
+edit_uri: ""
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+
+extra_css:
+  - assets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - Using the app:
+      - Getting started: getting-started.md
+      - Videos: videos.md
+      - Racing: racing.md
+      - History and export: history.md
+      - Heart rate: heart-rate.md
+  - Hardware:
+      - Supported rowers: hardware.md
+      - iConsole protocol: protocol/iconsole.md
+      - FTMS client: protocol/ftms.md
+      - Research notes: protocol/findings.md
+  - Development: development.md

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fellwater: a single scull mid-stroke, oars swept back. Source: docs/assets/logo.svg -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- hull -->
+    <path
+        android:fillColor="#F4F7FA"
+        android:pathData="M28,69.5 C44,66.4 64,66.4 82,69.5 C64,72.6 44,72.6 28,69.5 Z" />
+    <!-- rower -->
+    <path
+        android:fillColor="#F4F7FA"
+        android:pathData="M52.4,66.8 a2.6,2.6 0 1,0 5.2,0 a2.6,2.6 0 1,0 -5.2,0 Z" />
+    <!-- oar shafts -->
+    <path
+        android:strokeColor="#F4F7FA"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M53,69.5 L41,77.5 M57,69.5 L69,77.5" />
+    <!-- blades -->
+    <path
+        android:strokeColor="#FFB86B"
+        android:strokeWidth="4.2"
+        android:strokeLineCap="round"
+        android:pathData="M39.2,78.7 l-4,2.7 M70.8,78.7 l4,2.7" />
+</vector>

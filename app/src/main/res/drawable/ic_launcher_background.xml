@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fellwater: dusk over a fell lake. The scenery is the background layer, so the
+     launcher's parallax moves the boat (foreground) across it. Source: docs/assets/logo.svg -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M0,0 h108 v108 h-108 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0" android:startY="0"
+                android:endX="0" android:endY="108">
+                <item android:offset="0" android:color="#FF0B1E33" />
+                <item android:offset="0.62" android:color="#FF1D4D63" />
+                <item android:offset="0.62" android:color="#FF0E3A4F" />
+                <item android:offset="1" android:color="#FF06202E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- low sun -->
+    <path
+        android:fillColor="#FFB86B"
+        android:pathData="M59,45 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 Z" />
+    <!-- far fell -->
+    <path
+        android:fillColor="#2E6B70"
+        android:pathData="M0,67 C14,58 26,44 44,42 C60,40 74,54 88,57 C96,59 102,62 108,64 L108,67 Z" />
+    <!-- near fell -->
+    <path
+        android:fillColor="#3F9A8C"
+        android:pathData="M0,67 C10,61 20,52 32,52 C44,52 52,62 64,64 C74,66 90,66 108,67 Z" />
+    <!-- lake ripples -->
+    <path
+        android:strokeColor="#7DD3FC"
+        android:strokeAlpha="0.55"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M30,76 h22 M58,76 h16 M38,84 h30" />
+</vector>

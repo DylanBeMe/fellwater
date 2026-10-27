@@ -1,0 +1,16 @@
+/* Fellwater colours, taken from the logo: fell teal, dusk navy, low-sun amber. */
+:root {
+  --md-primary-fg-color: #2e6b70;
+  --md-primary-fg-color--light: #3f9a8c;
+  --md-primary-fg-color--dark: #0b1e33;
+  --md-accent-fg-color: #e8913a;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0e3a4f;
+  --md-accent-fg-color: #ffb86b;
+  --md-default-bg-color: #0a121b;
+}
+.md-typeset img.screen {
+  border-radius: 10px;
+  box-shadow: 0 6px 24px rgb(0 0 0 / 25%);
+}

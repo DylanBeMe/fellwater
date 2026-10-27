@@ -1,0 +1,27 @@
+# Gradle / Android
+build/
+.gradle/
+local.properties
+*.iml
+.idea/
+
+# Reverse-engineering scratch (regenerate from the XAPK if ever needed)
+xapk_raw/
+jadx_out/
+work/
+apks/
+*.xapk
+
+# Raw hardware captures (btsnoop logs, screenshots) stay local: they hold device
+# addresses. docs/protocol/ describes what they showed.
+captures/
+
+# OS noise
+.DS_Store
+
+# Tool scratch: Kotlin compiler cache, agent task logs
+.kotlin/
+.pi/
+
+# Local docs build output (mkdocs build)
+site/

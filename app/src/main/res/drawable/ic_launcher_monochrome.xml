@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed-icon layer (Android 13+): the fell line, sun and scull in one colour. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59,45 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M18,62 C24,56 30,52 36,50 C46,47 52,58 64,61 C72,63 80,62 90,63" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,69.5 C44,66.4 64,66.4 82,69.5 C64,72.6 44,72.6 28,69.5 Z M52.4,66.8 a2.6,2.6 0 1,0 5.2,0 a2.6,2.6 0 1,0 -5.2,0 Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M53,69.5 L41,77.5 M57,69.5 L69,77.5 M39.2,78.7 l-4,2.7 M70.8,78.7 l4,2.7" />
+</vector>

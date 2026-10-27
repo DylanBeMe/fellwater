@@ -1,0 +1,4 @@
+# Docs site build (MkDocs Material). Pinned so the Pages build is reproducible;
+# stay on MkDocs 1.x: Material warns that MkDocs 2.0 drops plugins and themes.
+mkdocs==1.6.1
+mkdocs-material==9.7.7
