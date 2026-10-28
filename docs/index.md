@@ -33,7 +33,7 @@ speaks both. See [Supported rowers](hardware.md).
 ## Get it
 
 Download the latest APK from the
-[Releases page](https://github.com/OWNER/REPO/releases) and install it on an Android 12
+[Releases page](https://github.com/DylanBeMe/fellwater/releases) and install it on an Android 12
 or newer phone or tablet, then follow [Getting started](getting-started.md).
 
 !!! note "Not affiliated"
